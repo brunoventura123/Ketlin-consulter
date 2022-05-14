@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ketlin-consulter/static/css/main.e67589cd.css",
-    "main.js": "/ketlin-consulter/static/js/main.4205327f.js",
+    "main.js": "/ketlin-consulter/static/js/main.b5b14ba6.js",
     "static/media/sapato.png": "/ketlin-consulter/static/media/sapato.261274350bcf74a7ade9.png",
     "static/media/she.png": "/ketlin-consulter/static/media/she.4cdbf459a050a62c7c1c.png",
     "index.html": "/ketlin-consulter/index.html",
     "main.e67589cd.css.map": "/ketlin-consulter/static/css/main.e67589cd.css.map",
-    "main.4205327f.js.map": "/ketlin-consulter/static/js/main.4205327f.js.map"
+    "main.b5b14ba6.js.map": "/ketlin-consulter/static/js/main.b5b14ba6.js.map"
   },
   "entrypoints": [
     "static/css/main.e67589cd.css",
-    "static/js/main.4205327f.js"
+    "static/js/main.b5b14ba6.js"
   ]
 }
