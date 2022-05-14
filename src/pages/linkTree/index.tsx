@@ -15,7 +15,7 @@ export const LinkTree = () => {
                     <ul>
                         <li><a href="/biotypeAnalysis">Análise de Estilo e Biótipo</a></li>
                         <li><a href="/colorAnalysis">Análise de Coloração</a></li>
-                        <li><a href="/closetAnalysis">Análise de guarda-roupa</a></li>
+                        <li><a href="/closetAnalysis">Análise de Guarda-roupa</a></li>
                         <li><a href="/personalShopper">Personal Shopper</a></li>
                         <li><a href="/lookMontages">Montagem de Looks</a></li>
                     </ul>
