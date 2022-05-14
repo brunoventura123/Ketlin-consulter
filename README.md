@@ -5,4 +5,4 @@
 
 . <a href="https://www.facebook.com/katheriny.ventura">Facebook<a/>
 
-. <a href="">WhatsApp<a/># ketlin-consulter
+. <a href="">WhatsApp<a/>
