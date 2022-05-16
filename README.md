@@ -7,4 +7,4 @@
 
 . <a href="">WhatsApp<a/>
 
-# Entre em contato e tire suas duvidas
+# Entre em contato e tire suas duvidas comigo.
