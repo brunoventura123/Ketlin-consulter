@@ -9,16 +9,12 @@ export const Container = styled.div`
     background-size:cover;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     flex-direction: column;
 
     .container{
         width: 320px;
-        padding-top: 10px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        flex-direction: column;
+        padding-top: 20px;
 
     .ketlinInfo{
         display: flex;
