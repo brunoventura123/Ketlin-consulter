@@ -8,10 +8,10 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
-  <React.StrictMode>
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+  <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <React.StrictMode>
       <App />
-    </BrowserRouter>
-  </React.StrictMode>
+    </React.StrictMode>
+  </BrowserRouter>
 );
 
