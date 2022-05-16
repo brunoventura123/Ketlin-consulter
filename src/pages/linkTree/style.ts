@@ -15,6 +15,10 @@ export const Container = styled.div`
     .container{
         width: 320px;
         padding-top: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
 
     .ketlinInfo{
         display: flex;
@@ -56,7 +60,7 @@ export const Container = styled.div`
 
         ul{
             
-            padding: 0 10px;
+            padding: 0;
                 li{
                     background-color: #611045;
                     margin-bottom: 10px;
@@ -87,9 +91,10 @@ export const Container = styled.div`
         margin-top: 30px;
         a{
             transition: all ease .3s;
-            color: blue;
+            color: #FFF;
+            letter-spacing:3px;
             &:hover{
-                color: #FFF;
+                color: blue;
             }
         }
         span{
