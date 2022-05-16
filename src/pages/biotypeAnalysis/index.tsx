@@ -1,5 +1,5 @@
 import * as C from './style'
-import Sapato from '../../assets/images/sapato.png'
+import Estilo from '../../assets/images/estilo.jpg'
 import { Header } from '../../components/header'
 import { Banner } from '../../components/banner'
 import { Footer } from '../../components/footer'
@@ -11,7 +11,7 @@ export const BiotypeAnalysis = () => {
     return (
 
         <C.Container>
-            <Header img={Sapato} />
+            <Header img={Estilo} />
             <Banner text="Análise de Estilo e Biótipo" />
             <Footer />
             <Zap />

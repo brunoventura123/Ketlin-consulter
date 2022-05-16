@@ -7,7 +7,7 @@ export const LinkTree = () => {
         <C.Container>
             <div className="container">
                 <div className="ketlinInfo">
-                    <img src={She} alt="" />
+                    <div><img src={She} alt="" /></div>
                     <p className="name">Katheriny Ventura</p>
                     <p className="desc">Consultora de Imagem</p>
 
@@ -21,8 +21,9 @@ export const LinkTree = () => {
                         <li><Link to="/lookMontages">Montagem de Looks</Link></li>
                     </ul>
                 </div>
+                <div className="footer">&copy; Produzido por <a href="https://brunoventura123.github.io/bruno-portifolio/" target="_blank">Bruno Ventura</a></div>
+
             </div>
-            <div className="footer">&copy; Produzido por <a href="https://brunoventura123.github.io/bruno-portifolio/" target="_blank">Bruno Ventura</a></div>
         </C.Container>
     )
 }

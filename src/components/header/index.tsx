@@ -28,7 +28,7 @@ export const Header = ({ img }: Props) => {
             <div className="she-info">
                 <div className="photo-text">
                     <img src={She} alt="She" />
-                    <div className="she-text"><div className="margin"> <span>Olá</span> <br /> eu sou <br /> Katheriny Ventura! <br /> <p className='font-italic'> Sou consultora de imagem, formada em Gestão de Recursos Humanos, casada e apaixonada por ajudar meus clientes a descobrirem sua melhor versão!</p></div></div>
+                    <div className="she-text"><div> <span>Olá</span> <br /> eu sou <br /> Katheriny Ventura! <br /> <p>Formada em Consultoria de imagem e Personal Stylist, apaixonada por moda, tendo como foco ajudar mulheres a encontrar a sua melhor versão através do autoconhecimento e a se sentirem satisfeitas com sua imagem.</p></div></div>
                 </div>
 
             </div>

@@ -1,21 +1,32 @@
 import styled from "styled-components";
-import Sapato from '../../assets/images/sapato.png'
+
+
 
 export const Container = styled.div<{ img: string, move: boolean }>`
     .bg{
-        background-image: url(${Sapato});
-        background-position:center;
+        background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(${props => props.img});
+        background-position:top;
         background-size:cover;
         width:100vw;
         height: 350px;
-        color: #FFF;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-
+        position: relative;
+        
         .logo{
             font-size: 35px;
+            font-weight: bold;
+            color: #26141E;
+            text-shadow: 1px 1px 2px #fff;
+        }
+        p{
+            font-weight: bold;
+            margin: 0;
+            padding: 0;
+            color: #26141E;
+            text-shadow: 0px 0px 2px #fff;
         }
     }
 

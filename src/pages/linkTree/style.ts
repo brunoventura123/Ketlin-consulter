@@ -1,11 +1,11 @@
 
 import styled from "styled-components";
+import capa from '../../assets/images/capa.jpg'
 
 export const Container = styled.div`
-    height: 100vh;
-    max-height: 100vh;
+    height:100vh;
     position: relative;
-    background-color: #611045;
+    background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(${capa});
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -35,27 +35,35 @@ export const Container = styled.div`
             font-weight: normal;
             padding: 0;
             margin: 0;
-            margin-bottom: 20px;
         }
-
+        div{
+            border:5px solid #611045;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 5px;
+        }
         img{
             width: 100px;
             height: 100px;
             border-radius: 50%;
+            border:5px solid #611045;
         }
     }
     .links{
 
         ul{
             
-            padding: 0;
+            padding: 0 10px;
                 li{
-                    background-color: #A66D7E;
+                    background-color: #611045;
                     margin-bottom: 10px;
                     padding: 10px 20px;
                     text-align: center;
                     list-style:none;
                     cursor: pointer;
+                    border-radius: 30px;
 
                     &:hover{
                         opacity:.9;
@@ -71,11 +79,11 @@ export const Container = styled.div`
             } 
         } 
     }
-}
     .footer{
         font-size: 12px;
-        padding-bottom:10px;
         color: #fff;
+        text-align: center;
+        margin-top: 30px;
         a{
             text-decoration: none;
             transition: all ease .3s;
@@ -86,4 +94,6 @@ export const Container = styled.div`
             }
         }
     }
+}
+   
 `
