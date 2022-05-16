@@ -83,12 +83,6 @@ ul li a:hover:before
 	transform: translateX(-150px) skewX(45deg);
 }
 
-.credit{
-    text-align: center;
-    color:#FFF;
-    padding: 20px;
-}
-
 .footer{
         font-size: 12px;
         color: #fff;
@@ -97,9 +91,10 @@ ul li a:hover:before
 		padding-bottom: 10px;
         a{
             transition: all ease .3s;
-            color: blue;
+            color: #FFF;
+            letter-spacing:3px;
             &:hover{
-                color: #FFF;
+                color: blue;
             }
         }
         span{
@@ -140,11 +135,6 @@ ul li a:hover:before
 		i{
 			font-size: 18px;
 		}
-	}
-	.credit{
-		font-size: 13px;
-		margin-top: 20px;
-		padding-bottom: 10px;
 	}
 }
 `
