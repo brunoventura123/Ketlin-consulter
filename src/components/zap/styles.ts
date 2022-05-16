@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.div`
     @keyframes move {
-        0%,100%{bottom: 20;}
+        0%,100%{bottom: 20px;}
         50%{bottom: 30px;}
     }
     a{
@@ -24,7 +24,7 @@ export const Container = styled.div`
 
         i{
             margin-top:8px;
-            margin-left:3px;
+            margin-left: 1px;
         }
     }
    

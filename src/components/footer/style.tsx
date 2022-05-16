@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Container = styled.footer`
 	background-color: #390728;
 	padding-top: 30px;
-	height: 80px;
+	height: auto;
 
 section
 {
@@ -88,19 +88,25 @@ ul li a:hover:before
     color:#FFF;
     padding: 20px;
 }
-#footer-link 
-{
-	position: relative;
-	display: inline-block;
-	color: #fff;
-	text-decoration: none;
-	transition:all ease 0.5s;
-    text-align: center;
 
-}
-#footer-link:hover{
-    text-decoration: underline;
-}
+.footer{
+        font-size: 12px;
+        color: #fff;
+        text-align: center;
+        margin-top: 30px;
+		padding-bottom: 10px;
+        a{
+            transition: all ease .3s;
+            color: blue;
+            &:hover{
+                color: #FFF;
+            }
+        }
+        span{
+            color: red;
+        }
+    }
+
 @media (max-width:770px) {
 	padding-top: 50px;
 	ul li a{

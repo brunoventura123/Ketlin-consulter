@@ -1,5 +1,5 @@
 import * as C from './style'
-import Estilo from '../../assets/images/estilo.jpg'
+import Estilo from '../../assets/images/bg1.png'
 import { Header } from '../../components/header'
 import { Banner } from '../../components/banner'
 import { Footer } from '../../components/footer'

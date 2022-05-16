@@ -1,6 +1,7 @@
 import * as C from './style';
 import She from '../../assets/images/she.png'
 import { useState } from 'react';
+import logo from '../../assets/images/logo.png'
 
 type Props = {
     img: string
@@ -12,7 +13,7 @@ export const Header = ({ img }: Props) => {
 
     function moveInfo() {
         let scroll = window.scrollY
-        if (scroll >= 50) {
+        if (scroll >= 30) {
             setMoves(true)
         }
     }
@@ -22,8 +23,8 @@ export const Header = ({ img }: Props) => {
     return (
         <C.Container move={moves} img={img}>
             <div className="bg">
-                <div className="logo">KATHERINY VENTURA</div>
-                <p className="consulter">Consultora de Imagem</p>
+                {/*<div className="logo">katheriny Ventura</div>*/}
+                <img src={logo} alt="" />
             </div>
             <div className="she-info">
                 <div className="photo-text">

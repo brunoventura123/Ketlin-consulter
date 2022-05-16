@@ -1,10 +1,8 @@
 import styled from "styled-components";
 
-
-
 export const Container = styled.div<{ img: string, move: boolean }>`
     .bg{
-        background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)), url(${props => props.img});
+        background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(${props => props.img});
         background-position:top;
         background-size:cover;
         width:100vw;
@@ -16,17 +14,18 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         position: relative;
         
         .logo{
-            font-size: 35px;
-            font-weight: bold;
-            color: #26141E;
-            text-shadow: 1px 1px 2px #fff;
+            color: #fff;
+            font-weight: bolder;
+            text-shadow: 2px 2px 3px #000;
+            font-family: 'Dancing Script', cursive;
+            font-size: 35px !important;
         }
-        p{
+        p.consulter{
             font-weight: bold;
             margin: 0;
             padding: 0;
-            color: #26141E;
-            text-shadow: 0px 0px 2px #fff;
+            color: #fff;
+            text-shadow: 2px 2px 3px #000;
         }
     }
 
@@ -37,6 +36,7 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         background-color:#FFF;
         align-items:center;
         padding:100px 0;
+        padding-top: 30px;
 
         .photo-text{
             display:flex;
@@ -66,7 +66,7 @@ export const Container = styled.div<{ img: string, move: boolean }>`
             opacity:${props => props.move ? 1 : 0};
             margin-bottom:-70px;
             color:#333;
-
+            position: relative;
             
 
             span{
@@ -79,6 +79,7 @@ export const Container = styled.div<{ img: string, move: boolean }>`
                 font-size:20px;
                 margin-top:30px;
                 color:#222;
+                width: 280px;
             }
         }
     }

@@ -21,7 +21,7 @@ export const LinkTree = () => {
                         <li><Link to="/lookMontages">Montagem de Looks</Link></li>
                     </ul>
                 </div>
-                <div className="footer">&copy; Produzido por <a href="https://brunoventura123.github.io/bruno-portifolio/" target="_blank">Bruno Ventura</a></div>
+                <div className="footer">&copy; Produzido com <span>❤</span> por <a href="https://brunoventura123.github.io/bruno-portifolio/" target="_blank">Bruno Ventura</a></div>
 
             </div>
         </C.Container>

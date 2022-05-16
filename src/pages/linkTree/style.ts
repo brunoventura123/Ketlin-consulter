@@ -86,13 +86,14 @@ export const Container = styled.div`
         text-align: center;
         margin-top: 30px;
         a{
-            text-decoration: none;
             transition: all ease .3s;
-            color: #fff;
+            color: blue;
             &:hover{
-                color: #fff;;
-                text-decoration: underline;
+                color: #FFF;
             }
+        }
+        span{
+            color: red;
         }
     }
 }
