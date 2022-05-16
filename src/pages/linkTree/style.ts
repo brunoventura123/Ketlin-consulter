@@ -1,4 +1,3 @@
-
 import styled from "styled-components";
 import capa from '../../assets/images/capa.jpg'
 
@@ -6,6 +5,8 @@ export const Container = styled.div`
     height:100vh;
     position: relative;
     background:linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(${capa});
+    background-position:center;
+    background-size:cover;
     display: flex;
     align-items: center;
     justify-content: space-between;
