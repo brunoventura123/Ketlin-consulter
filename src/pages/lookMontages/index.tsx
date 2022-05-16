@@ -11,6 +11,7 @@ export const LookMontages = () => {
         <C.Container>
             <Header img={Sapato} />
             <Banner text="Montagem de Looks" />
+            <div>Ajudo você</div>
             <Footer />
             <Zap />
         </C.Container>
