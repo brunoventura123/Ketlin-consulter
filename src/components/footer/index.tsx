@@ -12,7 +12,7 @@ export const Footer = () => {
                 </ul>
             </section>
 
-            <div className="footer">&copy; Produzido com <span>❤</span> por <a href="https://brunoventura123.github.io/bruno-portifolio/" target="_blank">Bruno Ventura</a></div>
+            <div className="footer">&copy; Produzido com <span>❤</span> por <a href="https://brunoventura123.github.io/bruno-portifolio/" target="_blank">Bruno Ventura.</a></div>
         </C.Container>
     )
 }
