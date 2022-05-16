@@ -112,10 +112,13 @@ ul li a:hover:before
 			font-size: 20px;
 		}
 	}
+	section{
+		height: 60px;
+	}
 	section:before
 {
 	width: 100%;
-	height: 25%;
+	height: 50%;
 }
 
 }
@@ -130,8 +133,6 @@ ul li a:hover:before
 		}
 	}
 	ul li a{
-		width: 30px;
-		height: 30px;
 		i{
 			font-size: 18px;
 		}
