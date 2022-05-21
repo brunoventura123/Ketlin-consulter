@@ -9,7 +9,7 @@ export const Schedule = () => {
                     <img src={Consulter} alt="" />
                 </div>
                 <div className="container">
-                    <a href="#">
+                    <a href="https://wa.me/5533998311785?text=Olá, quero saber mais sobre a Análise de Coloração" target="_blank">
                         <span></span>
                         <span></span>
                         <span></span>
