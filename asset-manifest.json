@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ketlin-consulter/static/css/main.e67589cd.css",
-    "main.js": "/Ketlin-consulter/static/js/main.eac24871.js",
+    "main.js": "/Ketlin-consulter/static/js/main.ed890e5a.js",
     "static/media/sapato.png": "/Ketlin-consulter/static/media/sapato.261274350bcf74a7ade9.png",
     "static/media/Banner1.png": "/Ketlin-consulter/static/media/Banner1.57a26e756308fdfbdc85.png",
     "static/media/Banner2.png": "/Ketlin-consulter/static/media/Banner2.88bd58dfefd1115dba60.png",
@@ -14,10 +14,10 @@
     "static/media/logo.png": "/Ketlin-consulter/static/media/logo.26d972c45c4df845a441.png",
     "index.html": "/Ketlin-consulter/index.html",
     "main.e67589cd.css.map": "/Ketlin-consulter/static/css/main.e67589cd.css.map",
-    "main.eac24871.js.map": "/Ketlin-consulter/static/js/main.eac24871.js.map"
+    "main.ed890e5a.js.map": "/Ketlin-consulter/static/js/main.ed890e5a.js.map"
   },
   "entrypoints": [
     "static/css/main.e67589cd.css",
-    "static/js/main.eac24871.js"
+    "static/js/main.ed890e5a.js"
   ]
 }
