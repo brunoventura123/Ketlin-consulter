@@ -13,20 +13,6 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         flex-direction: column;
         position: relative;
         
-        .logo{
-            color: #fff;
-            font-weight: bolder;
-            text-shadow: 2px 2px 3px #000;
-            font-family: 'Dancing Script', cursive;
-            font-size: 35px !important;
-        }
-        p.consulter{
-            font-weight: bold;
-            margin: 0;
-            padding: 0;
-            color: #fff;
-            text-shadow: 2px 2px 3px #000;
-        }
     }
 
     .she-info{
@@ -37,12 +23,15 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         align-items:center;
         padding:100px 0;
         padding-top: 30px;
+        background-color: #390728;
 
         .photo-text{
             display:flex;
             justify-content:center;
             background-color:#FFF;
             align-items:center;
+            background-color: #390728;
+            
             
             img{
                 height:auto;
@@ -50,6 +39,7 @@ export const Container = styled.div<{ img: string, move: boolean }>`
                 transition:all ease 2s;
                 margin-top:${props => props.move ? '0' : '200'}px;
                 opacity:${props => props.move ? 1 : 0};
+                border: 2px solid #a66d7e;
             }
             
         
@@ -65,8 +55,9 @@ export const Container = styled.div<{ img: string, move: boolean }>`
             margin-left:${props => props.move ? '-80' : '200'}px;
             opacity:${props => props.move ? 1 : 0};
             margin-bottom:-70px;
-            color:#333;
+            color:#222;
             position: relative;
+            background-color: #a66d7e;
             
 
             span{
@@ -101,7 +92,9 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         .bg{
             height: 200px;
         }
-        .she-info .photo-text {
+        .she-info {
+            padding:100px 0 50px 0;
+            .photo-text {
                 padding: 50px;
                 img{
                 width: 300px;
@@ -120,7 +113,7 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         }
 
         }
-        
+    }
     }
     @media (max-width:650px) {
         .bg{
@@ -145,7 +138,7 @@ export const Container = styled.div<{ img: string, move: boolean }>`
             .she-text{
                 margin-left:${props => props.move ? '0' : '180'}px;
                 opacity:${props => props.move ? 1 : 0};
-                margin-top:-30px;
+                margin-top:-2px;
                 
 
             }
