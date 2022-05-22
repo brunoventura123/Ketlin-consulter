@@ -1,12 +1,20 @@
 {
   "files": {
     "main.css": "/Ketlin-consulter/static/css/main.e67589cd.css",
-    "main.js": "/Ketlin-consulter/static/js/main.ed890e5a.js",
-    "static/media/sapato.png": "/Ketlin-consulter/static/media/sapato.261274350bcf74a7ade9.png",
+    "main.js": "/Ketlin-consulter/static/js/main.376b110d.js",
+    "static/media/color3.jpg": "/Ketlin-consulter/static/media/color3.37ad714fdccd62297051.jpg",
+    "static/media/color2.jpg": "/Ketlin-consulter/static/media/color2.38dd37e544955dc11535.jpg",
+    "static/media/guarda1.jpg": "/Ketlin-consulter/static/media/guarda1.7a536be79860465add92.jpg",
+    "static/media/guarda2.jpg": "/Ketlin-consulter/static/media/guarda2.79019918af81f9f285c3.jpg",
+    "static/media/color1.jpg": "/Ketlin-consulter/static/media/color1.4608638d6dbb1f510cf7.jpg",
+    "static/media/Banner4.png": "/Ketlin-consulter/static/media/Banner4.75279a56623b8bf4c34b.png",
+    "static/media/Banner5.png": "/Ketlin-consulter/static/media/Banner5.8b9eb425a0fa5540793b.png",
     "static/media/Banner1.png": "/Ketlin-consulter/static/media/Banner1.57a26e756308fdfbdc85.png",
+    "static/media/Banner3.png": "/Ketlin-consulter/static/media/Banner3.396da749a3657b23971e.png",
     "static/media/Banner2.png": "/Ketlin-consulter/static/media/Banner2.88bd58dfefd1115dba60.png",
     "static/media/she.png": "/Ketlin-consulter/static/media/she.16c2d9bec0d8a70263b4.png",
     "static/media/capa.jpg": "/Ketlin-consulter/static/media/capa.e9ca80810ab8e400167e.jpg",
+    "static/media/Color.png": "/Ketlin-consulter/static/media/Color.9d461c41ee23a880dfa3.png",
     "static/media/S1.png": "/Ketlin-consulter/static/media/S1.090e6e9224b8056fad47.png",
     "static/media/C3.png": "/Ketlin-consulter/static/media/C3.b9e1a42a6d10b0c06711.png",
     "static/media/C2.png": "/Ketlin-consulter/static/media/C2.a5cdf8a87035c131a26c.png",
@@ -14,10 +22,10 @@
     "static/media/logo.png": "/Ketlin-consulter/static/media/logo.26d972c45c4df845a441.png",
     "index.html": "/Ketlin-consulter/index.html",
     "main.e67589cd.css.map": "/Ketlin-consulter/static/css/main.e67589cd.css.map",
-    "main.ed890e5a.js.map": "/Ketlin-consulter/static/js/main.ed890e5a.js.map"
+    "main.376b110d.js.map": "/Ketlin-consulter/static/js/main.376b110d.js.map"
   },
   "entrypoints": [
     "static/css/main.e67589cd.css",
-    "static/js/main.ed890e5a.js"
+    "static/js/main.376b110d.js"
   ]
 }
