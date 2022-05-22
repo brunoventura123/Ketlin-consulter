@@ -9,6 +9,7 @@ import Bio1 from '../../assets/infoImage/C1.png'
 import Bio2 from '../../assets/infoImage/C2.png'
 import Bio3 from '../../assets/infoImage/C3.png'
 import { Schedule } from '../../components/schedule'
+import Consulter from '../../assets/images/S1.png'
 
 export const BiotypeAnalysis = () => {
 
@@ -22,7 +23,7 @@ export const BiotypeAnalysis = () => {
             <Header img={Estilo} />
             <Banner text="Análise de Estilo e Biótipo" />
             <TextImage text1={text[0]} text2={text[1]} text3={text[2]} img1={Bio1} img2={Bio2} img3={Bio3} />
-            <Schedule />
+            <Schedule image={Consulter} />
             <Footer />
             <Zap />
         </C.Container>
