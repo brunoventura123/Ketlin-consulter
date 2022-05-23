@@ -67,8 +67,11 @@ export const Container = styled.div<{ img: string, move: boolean }>`
 
             span{
                 font-size:100px;
-                font-family:Segoi UI;
-                font-family: 'Comforter Brush', cursive;
+                font-family:  cursive;
+            }
+            span.ketlin{
+                font-size: 22px;
+                font-weight: bold;
             }
             p{
                 font-weight:normal;
@@ -132,6 +135,7 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         }
         .she-info{
            height: auto;
+           padding-top: 30px;
          .photo-text {
             width: 320px;
             padding: 0px;
