@@ -13,13 +13,9 @@ export const Header = ({ img }: Props) => {
 
     useEffect(() => {
         setMoves(true)
-        topo()
     }, [])
 
-    function topo() {
-        // eslint-disable-next-line no-restricted-globals
-        parent.scroll(0, 0);
-    }
+
     return (
         <C.Container move={moves} img={img}>
             <div className="bg">

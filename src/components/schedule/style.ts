@@ -21,13 +21,14 @@ export const Container = styled.div`
 {
     position: relative;
     display: inline-block;
-    padding: 25px 30px;
+    padding: 20px 25px;
     margin: 0 20px;
     color: #FFF;
+    text-align: center;
     text-transform: uppercase;
     letter-spacing: 4px;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 22px;
     overflow: hidden;
     transition: 0.5s;
     -webkit-box-reflect: below  1px linear-gradient(transparent,#0005);;
@@ -148,8 +149,8 @@ export const Container = styled.div`
  }
  @media (max-width: 650px) {
      .area .container a{
-         font-size: 13px;
-         padding: 15px 18px;
+         font-size: 12px;
+         padding: 13px 15px;
      }
  }
 `

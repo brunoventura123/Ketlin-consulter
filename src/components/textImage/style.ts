@@ -16,6 +16,8 @@ export const Container = styled.div`
             color: #FFF;
             text-align: center;
             font-size: 20px;
+            font-weight: 400;
+            letter-spacing: 1px;
         }
         .image{
             flex:1;

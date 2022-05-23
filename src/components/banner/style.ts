@@ -7,7 +7,7 @@ export const Container = styled.div`
     .section2 {
         background-image: url('https://luciananikipa.com.br/novosite/wp-content/uploads/2020/03/cabides.jpg');
         background-size: cover;
-        background-position:top;
+        background-position:center;
         background-attachment: fixed;
         width: 100%;
         height: 300px;

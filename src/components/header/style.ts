@@ -13,6 +13,11 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         flex-direction: column;
         position: relative;
         
+        img{
+            transition: all ease 1.5s;
+            margin-right: ${props => props.move ? '0px' : '-400px'};
+            opacity: ${props => props.move ? 1 : .2};
+        }
     }
 
     .she-info{
