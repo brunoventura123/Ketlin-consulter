@@ -16,9 +16,9 @@ export const LookMontages = () => {
             <Header img={Banner5} />
             <Banner text="Montagem de Looks" />
             <TextImage text1='' text2='' text3='' img1='' img2='' img3='' />
-            <Schedule image={prev} />
+            <Schedule image={prev} theme="a Montagem de Looks!" />
             <Footer />
-            <Zap />
+            <Zap theme="a Montagem de Looks!" />
         </C.Container>
     )
 }

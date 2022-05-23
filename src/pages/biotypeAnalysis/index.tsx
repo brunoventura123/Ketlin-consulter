@@ -23,9 +23,9 @@ export const BiotypeAnalysis = () => {
             <Header img={Estilo} />
             <Banner text="Análise de Estilo e Biótipo" />
             <TextImage text1={text[0]} text2={text[1]} text3={text[2]} img1={Bio1} img2={Bio2} img3={Bio3} />
-            <Schedule image={Consulter} />
+            <Schedule image={Consulter} theme="a análise de Estilo e Biótipo" />
             <Footer />
-            <Zap />
+            <Zap theme="a análise de Estilo e Biótipo" />
         </C.Container>
 
     )

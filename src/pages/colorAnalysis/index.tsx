@@ -22,9 +22,9 @@ export const ColorAnalysis = () => {
             <Header img={Banner2} />
             <Banner text="Análise de Coloração" />
             <TextImage text1={text[0]} text2={text[1]} text3={text[2]} img1={color1} img2={color2} img3={color3} />
-            <Schedule image={Color} />
+            <Schedule image={Color} theme="a análise de coloração!" />
             <Footer />
-            <Zap />
+            <Zap theme="a análise de coloração!" />
         </C.Container>
     )
 }

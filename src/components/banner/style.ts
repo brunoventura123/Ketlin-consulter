@@ -31,9 +31,10 @@ export const Container = styled.div`
                 display: flex;
                 justify-content:center;
                 align-items:center;
-                border:1px solid #FFF;
-                color:#FFF;
+                border:1px solid #BFA87E;
+                color:#BFA87E;
                 font-size:40px;
+                font-weight: 500;
                 text-align:center;
                 width: 100%;
                 

@@ -18,16 +18,13 @@ export const ClosetAnalysis = () => {
     ]
 
     return (
-
         <C.Container>
             <Header img={Banner3} />
             <Banner text="Análise de guarda-roupa" />
             <TextImage text1={text[0]} text2={text[1]} text3={text[2]} img1={Guarda1} img2={Guarda2} img3={Guarda1} />
-            <Schedule image={Consulter} />
+            <Schedule image={Consulter} theme="a análise de Guarda-roupa!" />
             <Footer />
-            <Zap />
+            <Zap theme="a análise de Guarda-roupa!" />
         </C.Container>
-
-
     )
 }

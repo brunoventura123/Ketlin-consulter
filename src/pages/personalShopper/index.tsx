@@ -14,9 +14,9 @@ export const PersonalShopper = () => {
             <Header img={Banner4} />
             <Banner text="Personal Shopper" />
             <TextImage text1='' text2='' text3='' img1='' img2='' img3='' />
-            <Schedule image={prov} />
+            <Schedule image={prov} theme="o Personal Shopper!" />
             <Footer />
-            <Zap />
+            <Zap theme="o Personal Shopper!" />
         </C.Container>
     )
 }
