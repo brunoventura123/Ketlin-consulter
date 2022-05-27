@@ -18,7 +18,6 @@ export const Container = styled.div`
             font-size: 20px;
             font-weight: 400;
             letter-spacing: 1px;
-            font-family: 'Poppins';
         }
         .image{
             flex:1;

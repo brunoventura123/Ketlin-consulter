@@ -66,7 +66,7 @@ export const Container = styled.div<{ img: string, move: boolean }>`
             
 
             span{
-                font-size:100px;
+                font-size:80px;
                 font-family:  cursive;
             }
             span.ketlin{
@@ -124,15 +124,7 @@ export const Container = styled.div<{ img: string, move: boolean }>`
     }
     }
     @media (max-width:650px) {
-        .bg{
-            
-            .logo{
-                font-size: 23px;
-            }
-            .consulter{
-                font-size:16px;
-            }
-        }
+        
         .she-info{
            height: auto;
            padding-top: 30px;
@@ -149,6 +141,9 @@ export const Container = styled.div<{ img: string, move: boolean }>`
                 opacity:${props => props.move ? 1 : 0};
                 margin-top:-2px;
                 
+                span.ketlin{
+                    font-size: 25px;
+                }
 
             }
         }
