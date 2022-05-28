@@ -1,15 +1,10 @@
 import * as C from './style'
 import Banner3 from '../../assets/images/Banner3.png'
-import { Header } from '../../components/header'
-import { Banner } from '../../components/banner'
-import { Footer } from '../../components/footer'
-import { Zap } from '../../components/zap'
-import { TextImage } from '../../components/textImage'
 import Guarda1 from '../../assets/infoImage/guarda1.jpg'
 import Guarda2 from '../../assets/infoImage/guarda2.jpg'
 import Guarda3 from '../../assets/infoImage/guarda3.png'
-import { Schedule } from '../../components/schedule'
 import Consulter from '../../assets/images/S1.png'
+import { Theme } from '../../components/theme'
 
 export const ClosetAnalysis = () => {
     let text = [
@@ -20,12 +15,13 @@ export const ClosetAnalysis = () => {
 
     return (
         <C.Container>
-            <Header img={Banner3} />
-            <Banner text="Análise de guarda-roupa" />
-            <TextImage text1={text[0]} text2={text[1]} text3={text[2]} img1={Guarda3} img2={Guarda1} img3={Guarda2} />
-            <Schedule image={Consulter} theme="a análise de Guarda-roupa!" />
-            <Footer />
-            <Zap theme="a análise de Guarda-roupa!" />
+            <Theme img={Banner3}
+                text="Análise de Guarda-roupa"
+                text1={text[0]} text2={text[1]} text3={text[2]}
+                img1={Guarda1} img2={Guarda2} img3={Guarda3}
+                theme="a Análise de Guarda-roupa!"
+                image={Consulter}
+            />
         </C.Container>
     )
 }

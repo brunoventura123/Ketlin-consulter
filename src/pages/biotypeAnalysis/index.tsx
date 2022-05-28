@@ -1,15 +1,10 @@
 import * as C from './style'
-import Estilo from '../../assets/images/Banner1.png'
-import { Header } from '../../components/header'
-import { Banner } from '../../components/banner'
-import { Footer } from '../../components/footer'
-import { Zap } from '../../components/zap'
-import { TextImage } from '../../components/textImage'
+import Banner1 from '../../assets/images/Banner1.png'
 import Bio1 from '../../assets/infoImage/C1.png'
 import Bio2 from '../../assets/infoImage/C2.png'
 import Bio3 from '../../assets/infoImage/C3.png'
-import { Schedule } from '../../components/schedule'
 import Consulter from '../../assets/images/S1.png'
+import { Theme } from '../../components/theme'
 
 export const BiotypeAnalysis = () => {
 
@@ -20,12 +15,13 @@ export const BiotypeAnalysis = () => {
     return (
 
         <C.Container>
-            <Header img={Estilo} />
-            <Banner text="Análise de Estilo e Biótipo" />
-            <TextImage text1={text[0]} text2={text[1]} text3={text[2]} img1={Bio1} img2={Bio2} img3={Bio3} />
-            <Schedule image={Consulter} theme="a análise de Estilo e Biótipo" />
-            <Footer />
-            <Zap theme="a análise de Estilo e Biótipo" />
+            <Theme img={Banner1}
+                text="Análise de Biótipo e Estilo"
+                text1={text[0]} text2={text[1]} text3={text[2]}
+                img1={Bio1} img2={Bio2} img3={Bio3}
+                theme="a Análise de Biótipo e Estilo!"
+                image={Consulter}
+            />
         </C.Container>
 
     )

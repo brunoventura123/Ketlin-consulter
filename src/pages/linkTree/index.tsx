@@ -10,7 +10,6 @@ export const LinkTree = () => {
                     <div><img src={She} alt="" /></div>
                     <p className="name">Katheriny Ventura</p>
                     <p className="desc">Consultora de Imagem</p>
-
                 </div>
                 <div className="links">
                     <ul>
