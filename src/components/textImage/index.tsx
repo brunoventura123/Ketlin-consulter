@@ -3,10 +3,10 @@ import * as C from './style'
 type Props = {
     text1: string;
     text2: string
-    text3: string
+    text3?: string
     img1: string
     img2: string
-    img3: string
+    img3?: string
 }
 
 export const TextImage = ({ text1, text2, text3, img1, img2, img3 }: Props) => {

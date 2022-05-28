@@ -7,6 +7,7 @@ import { Zap } from '../../components/zap'
 import { TextImage } from '../../components/textImage'
 import Guarda1 from '../../assets/infoImage/guarda1.jpg'
 import Guarda2 from '../../assets/infoImage/guarda2.jpg'
+import Guarda3 from '../../assets/infoImage/guarda3.png'
 import { Schedule } from '../../components/schedule'
 import Consulter from '../../assets/images/S1.png'
 
@@ -21,7 +22,7 @@ export const ClosetAnalysis = () => {
         <C.Container>
             <Header img={Banner3} />
             <Banner text="Análise de guarda-roupa" />
-            <TextImage text1={text[0]} text2={text[1]} text3={text[2]} img1={Guarda1} img2={Guarda2} img3={Guarda1} />
+            <TextImage text1={text[0]} text2={text[1]} text3={text[2]} img1={Guarda3} img2={Guarda1} img3={Guarda2} />
             <Schedule image={Consulter} theme="a análise de Guarda-roupa!" />
             <Footer />
             <Zap theme="a análise de Guarda-roupa!" />
