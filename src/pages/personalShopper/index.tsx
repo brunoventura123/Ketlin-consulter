@@ -1,6 +1,6 @@
 import * as C from './style'
 import Banner4 from '../../assets/images/Banner5.png'
-import prov from '../../assets/images/S1.png'
+import prov from '../../assets/images/sshopper.png'
 import shopper from '../../assets/infoImage/shopper.png'
 import { Theme } from '../../components/theme'
 

@@ -5,6 +5,7 @@ import look1 from '../../assets/infoImage/look1.png'
 import look2 from '../../assets/infoImage/look2.png'
 import look3 from '../../assets/infoImage/look3.png'
 import { Theme } from '../../components/theme'
+import look from '../../assets/images/slook.png'
 
 export const LookMontages = () => {
     let text = ["Nessa etapa montamos looks com as peças do guarda-roupa que mais combinam com o estilo pessoal e que favorece o biótipo da pessoa. Todos os looks são fotografados e organizados no Dossiê para que a pessoa tenha sempre em mãos um guia prático e personalizado.",
@@ -18,7 +19,7 @@ export const LookMontages = () => {
                 text1={text[0]} text2={text[1]} text3={text[2]}
                 img1={look1} img2={look2} img3={look3}
                 theme="a Montagem de Looks!"
-                image={prev}
+                image={look}
             />
         </C.Container>
     )

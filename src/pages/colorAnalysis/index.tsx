@@ -3,7 +3,7 @@ import Banner2 from '../../assets/images/Banner2.png'
 import color1 from '../../assets/infoImage/color1.jpg'
 import color2 from '../../assets/infoImage/color2.jpg'
 import color3 from '../../assets/infoImage/color3.jpg'
-import Color from '../../assets/images/Color.png'
+import Color from '../../assets/images/scolor.png'
 import { Theme } from '../../components/theme'
 
 export const ColorAnalysis = () => {
