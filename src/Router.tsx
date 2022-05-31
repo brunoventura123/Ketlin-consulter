@@ -1,12 +1,12 @@
 import { useRoutes } from "react-router-dom";
-import { BiotypeAnalysis } from './src/pages/biotypeAnalysis';
-import { ColorAnalysis } from './src/pages/colorAnalysis';
-import { ClosetAnalysis } from "./src/pages/closetAnalysis";
-import { PersonalShopper } from './src/pages/personalShopper';
-import { LinkTree } from "./src/pages/linkTree";
-import { LookMontages } from "./src/pages/lookMontages";
-import { AllAnalisys } from "./src/pages/allAnalisys";
-import { Store } from './src/pages/store'
+import { BiotypeAnalysis } from './pages/biotypeAnalysis';
+import { ColorAnalysis } from './pages/colorAnalysis';
+import { ClosetAnalysis } from "./pages/closetAnalysis";
+import { PersonalShopper } from './pages/personalShopper';
+import { LinkTree } from "./pages/linkTree";
+import { LookMontages } from "./pages/lookMontages";
+import { AllAnalisys } from "./pages/allAnalisys";
+import { Store } from './pages/store'
 
 export const Router = () => {
 
