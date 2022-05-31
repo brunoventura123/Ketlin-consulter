@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ketlin-consulter/static/css/main.631cd73d.css",
-    "main.js": "/Ketlin-consulter/static/js/main.37bba3d5.js",
+    "main.js": "/Ketlin-consulter/static/js/main.357bb2a5.js",
     "static/media/color3.jpg": "/Ketlin-consulter/static/media/color3.37ad714fdccd62297051.jpg",
     "static/media/color2.jpg": "/Ketlin-consulter/static/media/color2.38dd37e544955dc11535.jpg",
     "static/media/guarda1.jpg": "/Ketlin-consulter/static/media/guarda1.7a536be79860465add92.jpg",
@@ -19,7 +19,10 @@
     "static/media/she.png": "/Ketlin-consulter/static/media/she.16c2d9bec0d8a70263b4.png",
     "static/media/look2.png": "/Ketlin-consulter/static/media/look2.749bbffb839ff65cec9b.png",
     "static/media/capa.jpg": "/Ketlin-consulter/static/media/capa.e9ca80810ab8e400167e.jpg",
-    "static/media/Color.png": "/Ketlin-consulter/static/media/Color.9d461c41ee23a880dfa3.png",
+    "static/media/sguarda.png": "/Ketlin-consulter/static/media/sguarda.4690b0ff0f01d73003b7.png",
+    "static/media/slook.png": "/Ketlin-consulter/static/media/slook.19ed7950a5ee45fc5cc6.png",
+    "static/media/sshopper.png": "/Ketlin-consulter/static/media/sshopper.64460c5b8096d89a839b.png",
+    "static/media/scolor.png": "/Ketlin-consulter/static/media/scolor.ef15e7b3d4db3208a607.png",
     "static/media/S1.png": "/Ketlin-consulter/static/media/S1.090e6e9224b8056fad47.png",
     "static/media/C3.png": "/Ketlin-consulter/static/media/C3.b9e1a42a6d10b0c06711.png",
     "static/media/C2.png": "/Ketlin-consulter/static/media/C2.a5cdf8a87035c131a26c.png",
@@ -27,10 +30,10 @@
     "static/media/logo.png": "/Ketlin-consulter/static/media/logo.26d972c45c4df845a441.png",
     "index.html": "/Ketlin-consulter/index.html",
     "main.631cd73d.css.map": "/Ketlin-consulter/static/css/main.631cd73d.css.map",
-    "main.37bba3d5.js.map": "/Ketlin-consulter/static/js/main.37bba3d5.js.map"
+    "main.357bb2a5.js.map": "/Ketlin-consulter/static/js/main.357bb2a5.js.map"
   },
   "entrypoints": [
     "static/css/main.631cd73d.css",
-    "static/js/main.37bba3d5.js"
+    "static/js/main.357bb2a5.js"
   ]
 }
