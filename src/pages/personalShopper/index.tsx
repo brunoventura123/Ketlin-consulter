@@ -2,7 +2,12 @@ import * as C from './style'
 import Banner4 from '../../assets/images/Banner5.png'
 import prov from '../../assets/images/sshopper.png'
 import shopper from '../../assets/infoImage/shopper.png'
-import { Theme } from '../../components/theme'
+import { Header } from '../../components/header'
+import { Banner } from '../../components/banner'
+import { TextImage } from '../../components/textImage'
+import { Schedule } from '../../components/schedule'
+import { Footer } from '../../components/footer'
+import { Zap } from '../../components/zap'
 
 export const PersonalShopper = () => {
     let text = ["É a etapa na qual iremos a algumas lojas pré-selecionadas, para comprar peças que faltam no guarda-roupa, para ajudar a compor produções mais assertivas, versáteis e práticas. Com o entendimento do estilo pessoal, desejo de imagem, análise do que já possui no guarda-roupa e o orçamento, a gente vai conseguir fazer compras mais inteligentes e eficientes.",
@@ -10,13 +15,17 @@ export const PersonalShopper = () => {
     ]
     return (
         <C.Container>
-            <Theme img={Banner4}
-                text="Personal Shopper"
-                text1={text[0]} text2={text[1]}
-                img1={shopper} img2={shopper}
-                theme="a Personal Shopper!"
-                image={prov}
-            />
+            <Header img={Banner4} />
+            <Banner text="Personal Shopper" />
+            <div className="video">
+                <video src="" controls loop autoPlay width={500} height={300}>
+                    <source src="../../assets/images/video.mp4" />
+                </video>
+            </div>
+            <TextImage text1={text[0]} text2={text[1]} img1={shopper} img2={shopper} />
+            <Schedule theme="a análise de Guarda-roupa" image={prov} />
+            <Footer />
+            <Zap theme="a análise de Guarda-roupa" />
         </C.Container>
     )
 }

@@ -4,7 +4,7 @@ type Props = {
     text1: string;
     text2: string
     text3?: string
-    img1: string
+    img1?: string
     img2: string
     img3?: string
 }
