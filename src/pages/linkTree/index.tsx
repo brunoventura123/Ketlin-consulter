@@ -13,14 +13,16 @@ export const LinkTree = () => {
                 </div>
                 <div className="links">
                     <ul>
-                        <li><Link to="/biotypeAnalysis">Análise de Estilo e Biótipo</Link></li>
-                        <li><Link to="/colorAnalysis">Análise de Coloração</Link></li>
-                        <li><Link to="/closetAnalysis">Análise de Guarda-roupa</Link></li>
-                        <li><Link to="/personalShopper">Personal Shopper</Link></li>
-                        <li><Link to="/lookMontages">Montagem de Looks</Link></li>
+                        {/*<Link to="/allanalisys"><li>Análise Completa</li></Link>*/}
+                        <Link to="/biotypeAnalysis"><li>Análise de Estilo e Biótipo</li></Link>
+                        <Link to="/colorAnalysis"><li>Análise de Coloração</li></Link>
+                        <Link to="/closetAnalysis"><li>Análise de Guarda-roupa</li></Link>
+                        <Link to="/personalShopper"><li>Personal Shopper</li></Link>
+                        <Link to="/lookMontages"><li>Montagem de Looks</li></Link>
+                        {/*<Link to="/store"><li>Loja</li></Link>*/}
                     </ul>
                 </div>
-                <div className="footer">&copy; Produzido com <span>❤</span> por <a href="https://brunoventura123.github.io/bruno-portifolio/" target="_blank">Bruno Ventura</a></div>
+                <div className="footer">&copy; Produzido com <span>❤</span> por <a href="https://brunoventura123.github.io/bruno-portifolio/" target="_blank" rel='noreferrer'>Bruno Ventura</a></div>
 
             </div>
         </C.Container>

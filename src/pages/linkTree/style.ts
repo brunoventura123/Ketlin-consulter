@@ -2,7 +2,7 @@ import styled from "styled-components";
 import capa from '../../assets/images/capa.jpg'
 
 export const Container = styled.div`
-    height:100vh;
+    min-height:100vh;
     position: relative;
     background:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url(${capa});
     background-position:center;
@@ -54,11 +54,20 @@ export const Container = styled.div`
     .links{
 
         ul{
-            
+            margin: 0;
             padding: 0;
-                li{
+                
+                
+                a{
+                    text-decoration: none;
+                    color: #FFF;
+                    width: 100%;
+                    margin: 10px 20px;
+                    height: 100%;
+                    
+
+                    li{
                     background-color: #611045;
-                    margin-bottom: 10px;
                     padding: 10px 20px;
                     text-align: center;
                     list-style:none;
@@ -68,13 +77,6 @@ export const Container = styled.div`
                     &:hover{
                         opacity:.9;
                     }
-                
-                a{
-                    text-decoration: none;
-                    color: #FFF;
-                    width: 100%;
-                    margin: 10px 20px;
-                    height: 100%;
                 }
             } 
         } 
@@ -84,6 +86,7 @@ export const Container = styled.div`
         color: #fff;
         text-align: center;
         margin-top: 30px;
+        margin-bottom: 10px;
         a{
             transition: all ease .3s;
             color: #FFF;
