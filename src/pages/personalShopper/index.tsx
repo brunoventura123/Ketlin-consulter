@@ -17,6 +17,11 @@ export const PersonalShopper = () => {
         <C.Container>
             <Header img={Banner4} />
             <Banner text="Personal Shopper" />
+            <div className="video">
+                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/U5gdk1TzhSE?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+                <video src="./2.webm" width={560} height={315} loop controls></video>
+
+            </div>
             <TextImage text1={text[0]} text2={text[1]} img1={shopper} img2={shopper} />
             <Schedule theme="a análise de Guarda-roupa" image={prov} />
             <Footer />

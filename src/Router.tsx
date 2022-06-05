@@ -12,13 +12,13 @@ export const Router = () => {
 
     return useRoutes([
         { path: "/", element: <LinkTree /> },
-        { path: "/biotypeAnalysis", element: <BiotypeAnalysis /> },
-        { path: "/personalShopper", element: <PersonalShopper /> },
-        { path: "/colorAnalysis", element: <ColorAnalysis /> },
-        { path: "/closetAnalysis", element: <ClosetAnalysis /> },
-        { path: "/lookMontages", element: <LookMontages /> },
-        { path: "/allanalisys", element: <AllAnalisys /> },
-        { path: "/store", element: <Store /> }
+        { path: "ketlin/src/pages/biotypeAnalysis", element: <BiotypeAnalysis /> },
+        { path: "ketlin/src/pages/personalShopper", element: <PersonalShopper /> },
+        { path: "ketlin/src/pages/colorAnalysis", element: <ColorAnalysis /> },
+        { path: "ketlin/src/pages/closetAnalysis", element: <ClosetAnalysis /> },
+        { path: "ketlin/src/pages/lookMontages", element: <LookMontages /> },
+        { path: "ketlin/src/pages/allanalisys", element: <AllAnalisys /> },
+        { path: "ketlin/src/pages/store", element: <Store /> }
 
     ]
     )
