@@ -1,7 +1,8 @@
 import * as C from './style'
 import Banner4 from '../../assets/images/Banner5.png'
-import prov from '../../assets/images/sshopper.png'
-import shopper from '../../assets/infoImage/shopper.png'
+import prov from '../../assets/images/shopper.png'
+import shopper1 from '../../assets/images/shopper1.svg'
+import shopper2 from '../../assets/infoImage/shopper.png'
 import { Header } from '../../components/header'
 import { Banner } from '../../components/banner'
 import { TextImage } from '../../components/textImage'
@@ -17,12 +18,7 @@ export const PersonalShopper = () => {
         <C.Container>
             <Header img={Banner4} />
             <Banner text="Personal Shopper" />
-            <div className="video">
-                <iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/U5gdk1TzhSE?controls=0" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
-                <video src="./2.webm" width={560} height={315} loop controls></video>
-
-            </div>
-            <TextImage text1={text[0]} text2={text[1]} img1={shopper} img2={shopper} />
+            <TextImage text1={text[0]} text2={text[1]} img1={shopper1} img2={shopper2} />
             <Schedule theme="a análise de Guarda-roupa" image={prov} />
             <Footer />
             <Zap theme="a análise de Guarda-roupa" />

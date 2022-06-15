@@ -16,10 +16,10 @@ export const ClosetAnalysis = () => {
     return (
         <C.Container>
             <Theme img={Banner3}
-                text="Análise de Coloração"
+                text="Análise de Guarda-roupa"
                 text1={text[0]} text2={text[1]} text3={text[2]}
                 img1={Guarda1} img2={Guarda2} img3={Guarda3}
-                theme="a Análise de Coloração!"
+                theme="a Análise de Guarda-roupa!"
                 image={Consulter}
             />
         </C.Container>

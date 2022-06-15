@@ -3,7 +3,7 @@ import Banner1 from '../../assets/images/Banner1.png'
 import Bio1 from '../../assets/infoImage/C1.png'
 import Bio2 from '../../assets/infoImage/C2.png'
 import Bio3 from '../../assets/infoImage/C3.png'
-import Consulter from '../../assets/images/S1.png'
+import Consulter from '../../assets/images/A1.svg'
 import { Theme } from '../../components/theme'
 
 export const BiotypeAnalysis = () => {
