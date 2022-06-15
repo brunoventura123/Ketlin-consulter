@@ -19,6 +19,7 @@ export const LinkTree = () => {
                         <Link to="/closetAnalysis"><li>Análise de Guarda-roupa</li></Link>
                         <Link to="/personalShopper"><li>Personal Shopper</li></Link>
                         <Link to="/lookMontages"><li>Montagem de Looks</li></Link>
+                        <a href="https://wa.me/5533998311785?text=Olá, quero saber mais sobre a consultoria!"><li style={{ backgroundColor: '#00e676' }}>Fale Comigo no WhatsApp</li></a>
                         {/*<Link to="/store"><li>Loja</li></Link>*/}
                     </ul>
                 </div>

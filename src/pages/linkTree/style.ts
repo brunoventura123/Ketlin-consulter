@@ -64,7 +64,7 @@ export const Container = styled.div`
                     width: 100%;
                     margin: 10px 20px;
                     height: 100%;
-                    
+
 
                     li{
                     background-color: #611045;
@@ -73,6 +73,8 @@ export const Container = styled.div`
                     list-style:none;
                     cursor: pointer;
                     border-radius: 30px;
+
+                   
 
                     &:hover{
                         opacity:.9;

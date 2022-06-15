@@ -54,7 +54,7 @@ export const Container = styled.div`
             padding-bottom: 30px;
         }
         .info .image img{
-            width: 300px;
+            width: 320px;
         }
     }
 `
