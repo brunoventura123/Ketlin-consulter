@@ -1,7 +1,7 @@
 import * as C from './style';
-import She from '../../assets/images/she.png'
+import She from '../../assets/images/she.webp'
 import { useEffect, useState } from 'react';
-import logo from '../../assets/images/logo.png'
+import logo from '../../assets/images/logo.webp'
 
 type Props = {
     img: string
@@ -20,7 +20,9 @@ export const Header = ({ img }: Props) => {
         <C.Container move={moves} img={img}>
             <div className="bg">
                 <img src={logo} alt="" />
+
             </div>
+
             <div className="she-info">
                 <div className="photo-text">
                     <img src={She} alt="She" />

@@ -15,19 +15,19 @@ export const TextImage = ({ text1, text2, text3, img1, img2, img3 }: Props) => {
             <div className="info">
                 <div className="text">{text1}</div>
                 <div className="image">
-                    <img src={img1} alt="" />
+                    <img width={400} src={img1} alt="" />
                 </div>
             </div>
             <div className="info reverse">
                 <div className="image">
-                    <img src={img2} alt="" />
+                    <img width={400} src={img2} alt="" />
                 </div>
                 <div className="text">{text2}</div>
             </div>
             <div className="info">
                 <div className="text">{text3}</div>
                 <div className="image">
-                    <img src={img3} alt="" />
+                    <img width={400} src={img3} alt="" />
                 </div>
             </div>
         </C.Container>

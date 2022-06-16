@@ -1,5 +1,5 @@
 import * as C from './style'
-import She from '../../assets/images/she.png'
+import She from '../../assets/images/she.webp'
 import { Link } from 'react-router-dom'
 
 export const LinkTree = () => {

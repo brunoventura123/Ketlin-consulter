@@ -1,5 +1,5 @@
 import * as C from './style'
-import Banner1 from '../../assets/images/Banner1.png'
+import Banner1 from '../../assets/images/Banner1.webp'
 import Bio1 from '../../assets/infoImage/C1.png'
 import Bio2 from '../../assets/infoImage/C2.png'
 import Bio3 from '../../assets/infoImage/C3.png'

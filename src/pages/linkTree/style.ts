@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import capa from '../../assets/images/capa.jpg'
+import capa from '../../assets/images/capa.webp'
 
 export const Container = styled.div`
     min-height:100vh;

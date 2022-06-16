@@ -1,11 +1,10 @@
 import * as C from './style'
-import prev from '../../assets/images/S1.png'
-import Banner5 from '../../assets/images/Banner4.png'
+import Banner5 from '../../assets/images/Banner4.webp'
 import look1 from '../../assets/infoImage/look1.png'
 import look2 from '../../assets/infoImage/look2.png'
 import look3 from '../../assets/infoImage/look3.png'
 import { Theme } from '../../components/theme'
-import look from '../../assets/images/slook.png'
+import look from '../../assets/images/slook.webp'
 
 export const LookMontages = () => {
     let text = ["Nessa etapa montamos looks com as peças do guarda-roupa que mais combinam com o estilo pessoal e que favorece o biótipo da pessoa. Todos os looks são fotografados e organizados no Dossiê para que a pessoa tenha sempre em mãos um guia prático e personalizado.",

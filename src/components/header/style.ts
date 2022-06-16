@@ -13,11 +13,13 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         flex-direction: column;
         position: relative;
         
+        
+
         img{
             transition: all ease 1.5s;
             margin-right: ${props => props.move ? '0px' : '-400px'};
             opacity: ${props => props.move ? 1 : .2};
-        }
+}
     }
 
     .she-info{
@@ -28,14 +30,18 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         align-items:center;
         padding:100px 0;
         padding-top: 30px;
-        background-color: #390728;
+        background: #390728;
+    box-shadow: inset 30px 30px 53px #170310,
+            inset -30px -30px 53px #5b0b40;
 
         .photo-text{
             display:flex;
             justify-content:center;
             background-color:#FFF;
             align-items:center;
-            background-color: #390728;
+            background: #390728;
+    box-shadow: inset 30px 30px 53px #170310,
+            inset -30px -30px 53px #5b0b40;
             
             
             img{
@@ -94,7 +100,7 @@ export const Container = styled.div<{ img: string, move: boolean }>`
         font-size:17px;
         line-heigth:23px;
     }
-
+    
     }
     @media (max-width: 990px) {
         .bg{
