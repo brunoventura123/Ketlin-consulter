@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/Ketlin-consulter/static/css/main.631cd73d.css",
-    "main.js": "/Ketlin-consulter/static/js/main.a62b8f66.js",
+    "main.js": "/Ketlin-consulter/static/js/main.f12a67d8.js",
+    "static/media/scolor.svg": "/Ketlin-consulter/static/media/scolor.fa5b389df883efbd3b01015cc18d6fd8.svg",
     "static/media/A1.svg": "/Ketlin-consulter/static/media/A1.bc2337e52aab845ff0e31763e3a6ff8a.svg",
     "static/media/color3.jpg": "/Ketlin-consulter/static/media/color3.37ad714fdccd62297051.jpg",
     "static/media/color2.jpg": "/Ketlin-consulter/static/media/color2.38dd37e544955dc11535.jpg",
@@ -9,6 +10,8 @@
     "static/media/guarda2.jpg": "/Ketlin-consulter/static/media/guarda2.79019918af81f9f285c3.jpg",
     "static/media/color1.jpg": "/Ketlin-consulter/static/media/color1.4608638d6dbb1f510cf7.jpg",
     "static/media/C2.svg": "/Ketlin-consulter/static/media/C2.398760fdd006beef76687f64dbe1a522.svg",
+    "static/media/look.svg": "/Ketlin-consulter/static/media/look.632fa11109cc38521c9e3b0984fe1d81.svg",
+    "static/media/sguarda.svg": "/Ketlin-consulter/static/media/sguarda.cedb8999bdfdf4eeae461904bdf60515.svg",
     "static/media/C3.svg": "/Ketlin-consulter/static/media/C3.87fa30c4dd397204aecfcc38d6d0c384.svg",
     "static/media/C1.svg": "/Ketlin-consulter/static/media/C1.d1e786c6215bd89916c7c9491245749d.svg",
     "static/media/look3.png": "/Ketlin-consulter/static/media/look3.fb5cf63af0a012d8edd0.png",
@@ -25,16 +28,13 @@
     "static/media/she.webp": "/Ketlin-consulter/static/media/she.be28841749da2baffa03.webp",
     "static/media/Banner2.webp": "/Ketlin-consulter/static/media/Banner2.cac693715e8085231ee0.webp",
     "static/media/shopper.webp": "/Ketlin-consulter/static/media/shopper.14e975dd40d287fb8aa5.webp",
-    "static/media/scolor.webp": "/Ketlin-consulter/static/media/scolor.3f05cf489ed56dba69f4.webp",
-    "static/media/sguarda.webp": "/Ketlin-consulter/static/media/sguarda.6b981abc54e0aad02d26.webp",
-    "static/media/slook.webp": "/Ketlin-consulter/static/media/slook.0a4e29b208518efb2fc1.webp",
     "static/media/logo.webp": "/Ketlin-consulter/static/media/logo.7320204059b31ad47c2d.webp",
     "index.html": "/Ketlin-consulter/index.html",
     "main.631cd73d.css.map": "/Ketlin-consulter/static/css/main.631cd73d.css.map",
-    "main.a62b8f66.js.map": "/Ketlin-consulter/static/js/main.a62b8f66.js.map"
+    "main.f12a67d8.js.map": "/Ketlin-consulter/static/js/main.f12a67d8.js.map"
   },
   "entrypoints": [
     "static/css/main.631cd73d.css",
-    "static/js/main.a62b8f66.js"
+    "static/js/main.f12a67d8.js"
   ]
 }
