@@ -3,7 +3,7 @@ import Banner3 from '../../assets/images/Banner3.webp'
 import Guarda1 from '../../assets/infoImage/guarda1.jpg'
 import Guarda2 from '../../assets/infoImage/guarda2.jpg'
 import Guarda3 from '../../assets/infoImage/guarda3.png'
-import Consulter from '../../assets/images/sguarda.webp'
+import Consulter from '../../assets/images/sguarda.svg'
 import { Theme } from '../../components/theme'
 
 export const ClosetAnalysis = () => {
